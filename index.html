@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Personal Portifolio Website - Olivier</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="behavior.js">
+    <script
+      src="https://kit.fontawesome.com/c27d0479d1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="container">
+        <nav>
+          <a href="https://apply.holbertonschool.com" >
+            <img src="https://apply.holbertonschool.com/holberton-logo.png" class="logo" alt="image">
+          </a>
+          
+          <ul>
+            <li><a href="#header" class="click">Home</a></li>
+            <li><a href="#about" class="click">About</a></li>
+            <li><a href="#contact" class="click">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Hello, I'm<span> Olivier</span><br />
+            DUSABAMAHORO From Rwanda
+          </h1>
+          <p class="sub-head">IT Support Specialist and seek to be Software Engineer</p>
+          <h2 class="h2">This Website was built using online resources <a class="w3" href="https://www.w3schools.com"> w3schools</a>
+          and <a class="code" href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------about----------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <a href="https://apply.holbertonschool.com">
+              <img src="https://apply.holbertonschool.com/holberton-logo.png" alt="image">
+            </a>
+            
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="click">
+              Seeking a Network Technician role to leverage technical skills and
+              customer service background for efficient issue resolution, and i still need to improve my self to another level in differnt field.
+              <br /><br  
+              /><p> <strong class="strong">My mission is to pioneer breakthroughs in AI and
+                machine learning, Software engineering, Data Science skills
+                leveraging data driven insights to transform industries and create
+                meaningful solutions. By continuously learning, collaborating, and
+                pushing beyond boundaries and aim to be catalyst for
+                positive change.</strong>
+            </p>
+
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Network Engineering</span><br />Building Network
+                  Enterprises
+                </li>
+                <li>
+                  <span> Network and System Administration</span><br />
+                  Server installation, configuration and Troubleshooting
+                </li>
+                <li>
+                  <span>Computer Repair</span><br />Computer hardware and
+                  software maintenance
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>01/2023 - Present </span><br />Yumn Ltd</li>
+                <li><span>02-2022 - 12-2022</span><br />Yumn Ltd</li>
+                <li>
+                  <span>06-2020 - 05-2021</span><br />Computing &Informatic
+                  Solution
+                </li>
+                <li><span>06/2021 - 02/2022 </span><br />WHITE STAR CAFE</li>
+                <li>
+                  <span>12/2019 - 02/2020 </span><br />BDF ( Business and
+                  development Fund)
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2017 - 2019</span><br /><b> PADRI VKEKO TVET SCHOOL</b
+                  ><br />
+                  General Lessons Information Technology (Networking)
+                </li>
+                <li>
+                  <span>2014 - 2016 </span><br /><b>KIVUMU SECONDARY SCHOOL</b
+                  ><br />
+                  General Lessons
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------contact------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i
+              >dusabamahoroolivier5@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>+250 786 522 150</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61556745596711"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/dusabamahoro_o"
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/oliver_dusa1?igsh=YzU1NGVlODEzOA=="
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/olivier-dusabamahoro-b6434722b/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1qFp7_BmIeevqSbwzFxzwwDgm9xceiiAS/view?usp=sharing" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input class="name" input="text" name="Name" placeholder="Your Name"required>
+              <input class="email"
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required>
+              <textarea class="bob"
+                name="Message"
+                placeholder="Your Message"
+                rows="10"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Made by Olivier with <i class="fa-solid fa-heart"></i> in 2024.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzvhT0-ORXVmGShudr7elQE-FeHLxy4bGsbUJUyRSXOHnFwH9N90jBdQ82-i8iwI_A/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
